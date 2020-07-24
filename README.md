@@ -12,7 +12,7 @@ Execute asynchronous operations in sequence in the background
 
 ## Example
 
-When you code starts up:
+When your code starts up:
 
 ```.js
 'use strict';
