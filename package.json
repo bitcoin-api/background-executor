@@ -1,5 +1,5 @@
 {
-  "name": "background-executor",
+  "name": "bqe",
   "version": "1.0.1",
   "description": "Execute asynchronous operations in sequence in the background",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitcoin-api/background-executor.git"
+    "url": "git+https://github.com/bitcoin-api/bqe.git"
   },
   "keywords": [
     "background",
@@ -19,9 +19,9 @@
   "author": "Michael Stecky-Efantis",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/bitcoin-api/background-executor/issues"
+    "url": "https://github.com/bitcoin-api/bqe/issues"
   },
-  "homepage": "https://github.com/bitcoin-api/background-executor#readme",
+  "homepage": "https://github.com/bitcoin-api/bqe#readme",
   "funding": [
     {
       "type": "github",

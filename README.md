@@ -1,8 +1,8 @@
-# background-executor
+# bqe
 
-[![npm version](https://badge.fury.io/js/background-executor.svg)](https://badge.fury.io/js/background-executor)
+[![npm version](https://badge.fury.io/js/bqe.svg)](https://badge.fury.io/js/bqe)
 
-NodeJS Background Executor Function
+bqe - Background Queue Executor
 
 
 ## About
@@ -17,10 +17,10 @@ When you code starts up:
 ```.js
 'use strict';
 
-const backgroundExecutor = require( 'background-executor' );
+const bqe = require( 'bqe' );
 
 
-backgroundExecutor.start();
+bqe.start();
 ```
 
 
@@ -29,10 +29,10 @@ When you want to add an operation to the background execution queue:
 ```.js
 'use strict';
 
-const backgroundExecutor = require( 'background-executor' );
+const bqe = require( 'bqe' );
 
 
-backgroundExecutor.addOperation({
+bqe.addOperation({
 
     operation: async () => {
 
