@@ -15,6 +15,7 @@ Execute asynchronous operations in sequence in the background
 When you code starts up:
 
 ```.js
+'use strict';
 
 const backgroundExecutor = require( 'background-executor' );
 
@@ -26,6 +27,8 @@ backgroundExecutor.start();
 When you want to add an operation to the background execution queue:
 
 ```.js
+'use strict';
+
 const backgroundExecutor = require( 'background-executor' );
 
 
